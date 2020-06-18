@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slo-Rental</title>
+  <link rel="stylesheet" href="css/style.css?v=1">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/cssanimation.min.css">
+</head>
+<body>
+  
+<header class="header">
+  <div class="container">
+    <div class="header__language">
+      <a class="header__language--icon" href="#"><img src="img/language/language1.png" alt=""></a>
+      <a class="header__language--icon" href="#"><img src="img/language/language2.png" alt=""></a>
+      <a class="header__language--icon" href="#"><img src="img/language/language3.png" alt=""></a>
+      <a class="header__language--icon" href="#"><img src="img/language/language4.png" alt=""></a>
+    </div>
+    <div class="header__top">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/header__logo.png" alt=""></a>
+      </div>
+      <nav class="header__menu">
+        <a class="header__menu--link" href="#">Каталог</a>
+        <a class="header__menu--link header__menu--link-active" href="#">Блог</a>
+      </nav>
+      <div class="header__info">
+        <a class="header__info--tel" href="еtel:+77889663232">+7 788 966 32 32</a>
+        <a class="header__info--text" href="">Бесплатный звонок</a>
+      </div>
+    </div>
+    <div class="header__intro">
+      <div class="header__intro--info">
+        <div class="header__intro--text">Выбрать<br> автомобиль:</div>
+        <div class="header__intro--text">Место получения:</div>
+        <div class="header__intro--text">Место возврата:</div>
+        <div class="header__intro--text">Дата начала:</div>
+        <div class="header__intro--text">Дата окончания:</div>
+      </div>
+      <form class="header__form" action="#" method="POST">
+        <p>
+          <select class="header__form--select">
+            <option value="1">Выберите автомобиль</option>
+            <option value="1">Выберите автомобиль</option>
+          </select>
+        </p>
+        <p>
+          <select class="header__form--select">
+            <option value="2">Место получения</option>
+            <option value="2">Место получения</option>
+          </select>
+        </p>
+        <p>
+          <select class="header__form--select">
+            <option value="3">Место возврата</option>
+            <option value="3">Место возврата</option>
+          </select>
+        </p>
+        <p>
+          <select class="header__form--select">
+            <option value="4">Дата получения</option>
+            <option value="4">Дата получения</option>
+          </select>
+        </p>
+        <p>
+          <select class="header__form--select">
+            <option value="5">Дата возврата</option>
+            <option value="5">Дата возврата</option>
+          </select>
+        </p>
+        <button class="header__form--btn btn">Зарезервировать</button>
+      </form>
+      <div class="header__header">
+        <h1 class="header__header--title cssanimation leRotateIn sequence">Аренда автомобилей в словении</h1>
+        <div class="header__header--suptitle">От 20 евро в день без ограничения пробега</div>
+        <div class="header__header--block">
+          <img class="header__header--img animated fadeInLeft delay-1s" src="img/car.png" alt="Автомобиль">
+          <img class="header__header--icon animated flash delay-2s" src="img/ellipse__car.png" alt="Автомобиль">
+        </div>
+        <div class="header__configuration">
+          <div class="header__configuration--item">
+            <img class="header__configuration--icon" src="img/equipment/equipment_1.png" alt="">
+            <span>- Дизель</span>
+          </div>
+          <div class="header__configuration--item">
+            <img class="header__configuration--icon" src="img/equipment/equipment_2.png" alt="">
+            <span>- 5</span>
+          </div>
+          <div class="header__configuration--item">
+            <img class="header__configuration--icon" src="img/equipment/equipment_3.png" alt="">
+            <span>- Автомат</span>
+          </div>
+          <div class="header__configuration--item">
+            <img class="header__configuration--icon" src="img/equipment/equipment_4.png" alt="">
+            <span>- есть</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section section--info">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__header--title wow heartBeat" data-wow-offset="200">Прокат автомобилей в словении</h2>
+    </div>
+    <div class="info">
+      <div class="info__item wow fadeInLeft" data-wow-offset="200">
+        <img src="img/info/info_1.png" alt="">
+        <div class="info__text">Пункты проката</div>
+      </div>
+      <div class="info__item wow fadeInUpBig" data-wow-offset="200">
+        <img src="img/info/info_2.png" alt="">
+        <div class="info__text">Вопросы и ответы</div>
+      </div>
+      <div class="info__item wow fadeInRight" data-wow-offset="200">
+        <img src="img/info/info_3.png" alt="">
+        <div class="info__text">О нас</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--cost">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__header--title section__header--title-color wow zoomInBottom" data-wow-offset="300">В стоимость проката входит</h2>
+    </div>
+    <div class="cost">
+      <div class="cost__item wow flipInX delay-1s" data-wow-offset="200">
+        <img class="cost__img" src="img/cost/cost_1.png" alt="">
+        <div class="cost__text">Пробег без ограничений</div>
+      </div>
+      <div class="cost__item wow flipInX delay-2s" data-wow-offset="200">
+        <img class="cost__img" src="img/cost/cost_2.png" alt="">
+        <div class="cost__text">Можно ездить в соседние страны</div>
+      </div>
+      <div class="cost__item wow flipInX delay-1s" data-wow-offset="200">
+        <img class="cost__img" src="img/cost/cost_3.png" alt="">
+        <div class="cost__text">Доставка до отеля</div>
+      </div>
+      <div class="cost__item wow flipInX delay-2s" data-wow-offset="200">
+        <img class="cost__img" src="img/cost/cost_4.png" alt="">
+        <div class="cost__text">КАСКО от 5 евро в день</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--service">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__header--title wow rotateIn" data-wow-offset="200">Сервис от Slo-Rental</h2>
+    </div>
+    <div class="service">
+      <div class="service__item wow flipInX" data-wow-offset="200">
+        <h3 class="service__title">Помощь в обслуживании</h3>
+        <div class="service__text">
+          <p>Бізнесменам часто необхідна одна або кілька машин на певний час. Недоцільно мати власний автопарк, якщо машини не використовуються регулярно - витрати на його утримання несумірні з вартістю прокату. Зате завжди можна забронювати до потрібного часу автомобіль - і його подадуть в умовлене місце з вичищеними салоном і повним баком.</p>
+        </div>
+      </div>
+      <div class="service__item wow flipInX" data-wow-offset="200">
+        <h3 class="service__title">Помощь в обслуживании</h3>
+        <div class="service__text">
+          <p>Бізнесменам часто необхідна одна або кілька машин на певний час. Недоцільно мати власний автопарк, якщо машини не використовуються регулярно - витрати на його утримання несумірні з вартістю прокату. Зате завжди можна забронювати до потрібного часу автомобіль - і його подадуть в умовлене місце з вичищеними салоном і повним баком.</p>
+        </div>
+      </div>
+      <div class="service__item wow flipInX" data-wow-offset="200">
+        <h3 class="service__title">Помощь в обслуживании</h3>
+        <div class="service__text">
+          <p>Бізнесменам часто необхідна одна або кілька машин на певний час. Недоцільно мати власний автопарк, якщо машини не використовуються регулярно - витрати на його утримання несумірні з вартістю прокату. Зате завжди можна забронювати до потрібного часу автомобіль - і його подадуть в умовлене місце з вичищеними салоном і повним баком.</p>
+        </div>
+      </div>
+      <div class="service__item wow flipInX" data-wow-offset="200">
+        <h3 class="service__title">Помощь в обслуживании</h3>
+        <div class="service__text">
+          <p>Бізнесменам часто необхідна одна або кілька машин на певний час. Недоцільно мати власний автопарк, якщо машини не використовуються регулярно - витрати на його утримання несумірні з вартістю прокату. Зате завжди можна забронювати до потрібного часу автомобіль - і його подадуть в умовлене місце з вичищеними салоном і повним баком.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--subscribe">
+  <div class="container">
+    <div class="subscribe">
+      <div class="subscribe__header">
+        <div class="subscribe__title">Получай лучшие предложения</div>
+        <div class="subscribe__text">Подпишись на рассылку горячих предложений и новостей компании</div>
+      </div>
+      <form class="subscribe__form" action="#" method="POST">
+        <input class="subscribe__input" type="text" name="email" placeholder="Введите Ваш e-mail">
+        <button class="subscribe__btn btn">Подписаться</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section section--chosencar">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__header--title">Выбирете свой автомобиль</h2>
+    </div>
+    <div class="chosencar">
+      <nav class="chosencar__menu--class">
+        <a class="chosencar__menu--class-link" href="#">Эконом</a>
+        <a class="chosencar__menu--class-link" href="#">Стандарт</a>
+        <a class="chosencar__menu--class-link" href="#">Кофмфорт</a>
+        <a class="chosencar__menu--class-link" href="#">Бизнес</a>
+        <a class="chosencar__menu--class-link" href="#">Кабриолет</a>
+        <a class="chosencar__menu--class-link" href="#">Минивен</a>
+      </nav>
+      <div class="chosencar__wrap">
+        <nav class="chosencar__menu--stamp">
+          <a class="chosencar__menu--stamp-link" href="#">Жигули</a>
+          <a class="chosencar__menu--stamp-link" href="#">Седан</a>
+          <a class="chosencar__menu--stamp-link" href="#">Разные</a>
+          <a class="chosencar__menu--stamp-link" href="#">Мерседес</a>
+          <a class="chosencar__menu--stamp-link" href="#">Волга</a>
+        </nav>
+        <div class="chosencar__wrap--item">
+          <div class="chosencar__item--foto">
+            <img class="chosencar__item--img" src="img/chosencar/chosencar__car.png" alt="">
+          </div>
+          <div class="chosencar__configuration">
+            <div class="chosencar__configuration--item">
+              <img class="chosencar__configuration--icon" src="img/chosencar/chosencar__icon1.png" alt="">
+              <span> - Дизель</span>
+            </div>
+            <div class="chosencar__configuration--item">
+              <img class="chosencar__configuration--icon" src="img/chosencar/chosencar__icon2.png" alt="">
+              <span> - Автомат</span>
+            </div>
+            <div class="chosencar__configuration--item">
+              <img class="chosencar__configuration--icon" src="img/chosencar/chosencar__icon3.png" alt="">
+              <span> - Есть</span>
+            </div>
+            <div class="chosencar__configuration--item">
+              <img class="chosencar__configuration--icon" src="img/chosencar/chosencar__icon4.png" alt="">
+              <span> - 5 чел</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chosencar__catalog">
+        <a class="chosencar__catalog--link" href="#">Смотреть полный католог автомобилей</a>
+        <button class="btn">Забронировать</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--feedback">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__header--title section__header--title-color">Отзывы о Slo-Rental</h2>
+    </div>
+    <div class="feedback">
+      <div class="feedback__foto">
+        <img class="feedback__img" src="img/feedback/fedback__foto.png" alt="">
+      </div>
+        <div class="feedback__content">
+          <div class="feedback__header">
+            <span class="feedback__name feedback--info">Саша, 21 год</span>
+            <span class="feedback__car feedback--info">BMW 525</span>
+            <span class="feedback__date feedback--info">7 Дней</span>
+          </div>
+          <div class="feedback__text">
+            <p>Удобное расположение офиса, отличная и быстрая работа на выдаче и на приемке автомобиля. Только лучшие рекомендации. Так держать! P/s Прошу обратить внимание на работу менеджера Марины, которая забронировала для меня Хюндай Элантра 2019, а на деле я получил Хюндай Элантра 2017)). Этот факт, в целом, совершенно не испортил впечатления от аренды, автомобиль 2017 года был очень хорошим. Однако в случае с арендой авто важны и такие детали.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section section--city">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__header--title">Блог о Словении от Slo-Rental</h2>
+    </div>
+    <div class="city">
+      <div class="city__col">
+        <div class="city__content wow fadeInDown" data-wow-offset="200">
+          <div class="city__title">Отель Metropol Resort, Словения</div>
+          <div class="city__text">
+            <p>Словения – отдых со вкусом! Сочетание среднеевропейской, альпийской и средиземноморской растительности в Словении предопределило возникновение большого количества микроклиматических зон, обладающих уникальными целебными свойствами. Хрустальный воздух, чистейшая вода и благополучная экологическая обстановка, которую страна сохранила до нашего времени, способствовали созданию многочисленных курортов.</p>
+          </div>
+          <div class="city__info">
+            <a class="city__link" href="#">Подробнее</a>
+            <a class="city__link" href="#">Все статьи</a>
+          </div>
+        </div>
+        <div class="city__foto">
+          <img class="city__img wow flipInX delay-1s" data-wow-offset="200" src="img/city/city__1.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="city__col">
+        <div class="city__content city--order wow fadeInDown" data-wow-offset="200">
+          <div class="city__title">Отель Metropol Resort, Словения</div>
+          <div class="city__text">
+            <p>Словения – отдых со вкусом! Сочетание среднеевропейской, альпийской и средиземноморской растительности в Словении предопределило возникновение большого количества микроклиматических зон, обладающих уникальными целебными свойствами. Хрустальный воздух, чистейшая вода и благополучная экологическая обстановка, которую страна сохранила до нашего времени, способствовали созданию многочисленных курортов.</p>
+          </div>
+          <div class="city__info">
+            <a class="city__link" href="#">Подробнее</a>
+            <a class="city__link" href="#">Все статьи</a>
+          </div>
+        </div>
+        <div class="city__foto">
+          <img class="city__img wow flipInX delay-1s" data-wow-offset="200" src="img/city/city__2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="city__col">
+        <div class="city__content wow fadeInDown" data-wow-offset="200">
+          <div class="city__title">Отель Metropol Resort, Словения</div>
+          <div class="city__text">
+            <p>Словения – отдых со вкусом! Сочетание среднеевропейской, альпийской и средиземноморской растительности в Словении предопределило возникновение большого количества микроклиматических зон, обладающих уникальными целебными свойствами. Хрустальный воздух, чистейшая вода и благополучная экологическая обстановка, которую страна сохранила до нашего времени, способствовали созданию многочисленных курортов.</p>
+          </div>
+        </div>
+        <div class="city__foto">
+          <img class="city__img wow flipInX delay-1s" data-wow-offset="200" src="img/city/city__3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--about">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__header--title">О нас</h2>
+    </div>
+    <div class="about wow flipInX" data-wow-offset="300">
+      <div class="about__item">
+        <img class="about__img" src="img/about/about.jpg" alt="">
+      </div>
+      <div class="about__content">
+        <div class="about__title">Отель Metropol Resort, Словения</div>
+        <div class="about__text">
+          <p>Словения – отдых со вкусом! Сочетание среднеевропейской, альпийской и средиземноморской растительности в Словении предопределило возникновение большого количества микроклиматических зон, обладающих уникальными целебными свойствами. Хрустальный воздух, чистейшая вода и благополучная экологическая обстановка, которую страна сохранила до нашего времени, способствовали созданию многочисленных курортов.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrap">
+      <div class="footer__logo">
+        <img src="img/header__logo.png" alt="">
+        <p class="footer__copyright">Copyright 2019. SLO-RENTAL. Все права защищены.</p>
+      </div>
+      <div class="footer__social">
+        <div class="footer__social--item">
+          <a class="footer__social--icon" href="#"><span class="icon-bold"></span></a>
+        </div>
+        <div class="footer__social--item">
+          <a class="footer__social--icon" href="#"><span class="icon-vk"></span></a>
+        </div>
+        <div class="footer__social--item">
+          <a class="footer__social--icon" href="#"><span class="icon-facebook"></span></a>
+        </div>
+        <div class="footer__social--item">
+          <a class="footer__social--icon" href="#"><span class="icon-twitter"></span></a>
+        </div>
+        <div class="footer__social--item">
+          <a class="footer__social--icon" href="#"><span class="icon-google-plus"></span></a>
+        </div>
+        <div class="footer__social--item">
+          <a class="footer__social--icon" href="#"><span class="icon-instagram"></span></a>
+        </div>
+      </div>
+      <div class="footer__number">
+        <a class="footer__tel" href="tel:+79994552323">+7 999 455 23 23</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/libs.min.js"></script>
+<script src="js/letteranimation.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
