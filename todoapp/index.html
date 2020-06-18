@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?001">
+  <title>To Do Приложения</title>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1 class="header__title">To Do Приложения</h1>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="task">
+      <form class="task__form" action="#">
+        <div class="task__wrap">
+          <input type="text" class="task__input" placeholder="Напишите задачу">
+          <button type="submit" class="task__btn">Добавить</button>
+        </div>
+      </form>
+      <h2 class="task__title task__title--none">
+        Список задач
+      </h2>
+
+      <ul class="task__list">
+
+        <li class="task__item task__item--none">
+          <span class="task__text">Список задач пуст</span>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="notification">
+    <!-- <div class="notification__item notification__item-green">
+      Задача добавлена
+    </div> -->
+    <!-- <div class="notification__item notification__item-red">
+      Задача удалена
+    </div> -->
+  </div>
+</section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
